@@ -1,0 +1,12 @@
+*.js.map
+*.ts
+.git*
+.vscode
+.env*
+local.settings.json
+eslint.config.mjs
+tsconfig.json
+src/
+tests/
+coverage/
+README.md

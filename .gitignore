@@ -1,0 +1,26 @@
+node_modules/
+dist/
+coverage/
+
+# Secretos / configuracion local
+local.settings.json
+.env
+.env.*
+!.env.example
+
+# Azure Functions
+bin/
+obj/
+appsettings.json
+.python_packages/
+__azurite_db*__.json
+__blobstorage__/
+__queuestorage__/
+
+# Editor / SO
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.log
+Claude.md
